@@ -4,10 +4,15 @@
 let enterAge = prompt(`Enter Your Age`, `Weite Here`);
 const userAge = Number(enterAge);
 const message = userAge<13? `Child`: userAge => 13 ||  userAge === 19?`Teeneger`:`Adult`;
-const result=alert(message); 
+let result=alert(message); 
 
 // 2. Write a program that asks the user to enter a number. If the number is divisible by both 2 and 3,
 // show 'Divisible by both'. Otherwise, show 'Not divisible by both'.
+let enterNumber = prompt(`Enter Your Number`, `Weite Here`);
+const userNumber = Number(enterNumber);
+const messageSecond = userNumber%2===0 && userNumber%3===0 ?`Divisible by both`:`Not divisible by both`;
+ result=alert(messageSecond); 
+
 // 3. Create a program that asks the user for a password. If it matches 'saylani123', show 'Access
 // Granted', otherwise show 'Access Denied'.
 // 4. Ask the user to enter two numbers. Display the larger number using an if…else statement.
