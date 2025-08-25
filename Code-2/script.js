@@ -15,8 +15,19 @@ const messageSecond = userNumber%2===0 && userNumber%3===0 ?`Divisible by both`:
 
 // 3. Create a program that asks the user for a password. If it matches 'saylani123', show 'Access
 // Granted', otherwise show 'Access Denied'.
+const enterPassword=prompt('Enter Your Password', 'Enter Here')
+const userPassword = Number(enterPassword);
+const messageThird = userPassword==='saylani123'?'Access';'Access Denied'
+ result=alert(messageThird); 
 // 4. Ask the user to enter two numbers. Display the larger number using an if…else statement.
+const firstNumber = Number(firstNumber);
+const secondNumber = Number(secondNumber);
+const messageFourth = Math.max(firstNumber,secondNumber);
+ result=alert('${messageSecond} is the larger number'); 
+// i read the question about using if else, but i found this method efficient way and i already use ternory method in the above question
+
 // 5. Create an array of 5 colors. Display the first and last color from the array in an alert.
+
 // 6. Make an array of fruits with 3 items. Add one more fruit at the end using .push() and show the
 // new array in console.
 // 7. Write a program that removes the first element of an array of city names and then prints the
