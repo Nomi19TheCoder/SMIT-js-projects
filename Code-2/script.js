@@ -48,6 +48,10 @@ result=alert(messageFifth);
 
 // 6. Make an array of fruits with 3 items. Add one more fruit at the end using .push() and show the
 // new array in console.
+const fruitArr=['apple','banana','mango'];
+const messageSixth=fruitArr.push('orange');
+console.log(`Array of fruit = ${fruitArr}`)
+result=alert(messageSixth)
 // 7. Write a program that removes the first element of an array of city names and then prints the
 // updated array.
 // 8. Create an array of numbers [10, 20, 30, 40, 50]. Use .splice() to remove the middle number (30)
