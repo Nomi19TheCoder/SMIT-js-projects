@@ -51,9 +51,12 @@ result=alert(messageFifth);
 const fruitArr=['apple','banana','mango'];
 const messageSixth=fruitArr.push('orange');
 console.log(`Array of fruit = ${fruitArr}`)
-result=alert(messageSixth)
+result=alert(messageSixth);
 // 7. Write a program that removes the first element of an array of city names and then prints the
 // updated array.
+const cityArr=['Karachi','Lahore','Islamabad'];
+const newCityArr=cityArr.shift();
+console.log(newCityArr);
 // 8. Create an array of numbers [10, 20, 30, 40, 50]. Use .splice() to remove the middle number (30)
 // and display the array.
 // 9. Make an array [100, 200, 300, 400, 500]. Use .slice(1, 4) and show the result in the console.
