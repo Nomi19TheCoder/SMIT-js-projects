@@ -20,13 +20,29 @@ const userPassword = Number(enterPassword);
 const messageThird = userPassword==='saylani123'?'Access';'Access Denied'
  result=alert(messageThird); 
 // 4. Ask the user to enter two numbers. Display the larger number using an if…else statement.
-const firstNumber = Number(firstNumber);
-const secondNumber = Number(secondNumber);
-const messageFourth = Math.max(firstNumber,secondNumber);
- result=alert('${messageSecond} is the larger number'); 
+const firstNumber= prompt('Enter a Number')
+const secondNumber= prompt('Enter an other Number')
+const firstEntered = Number(firstNumber);
+const secondEntered = Number(secondNumber);
+const messageFourth = Math.max(firstEntered,secondEntered);
+ result=alert(`${messageFourth} is the larger number`); 
 // i read the question about using if else, but i found this method efficient way and i already use ternory method in the above question
 
 // 5. Create an array of 5 colors. Display the first and last color from the array in an alert.
+const colorAdder=() => {
+    const colorArr= [];
+for(i=0;i<5;i++){
+ 
+  let R= Math.floor(Math.random()*255);
+  let G= Math.floor(Math.random()*255);
+  let B= Math.floor(Math.random()*255);
+  colorName=`rgb(${R},${G},${B})`
+  colorArr.push(colorName)
+}
+    console.log(colorArr)
+
+}
+console.log(colorAdder())
 
 // 6. Make an array of fruits with 3 items. Add one more fruit at the end using .push() and show the
 // new array in console.
