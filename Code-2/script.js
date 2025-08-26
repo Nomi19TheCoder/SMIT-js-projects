@@ -40,9 +40,11 @@ for(i=0;i<5;i++){
   colorArr.push(colorName)
 }
     console.log(colorArr)
+console.log(colorAdder());
+const messageFifth=colorArr.splice(0,3);
+result=alert(messageFifth);
 
 }
-console.log(colorAdder())
 
 // 6. Make an array of fruits with 3 items. Add one more fruit at the end using .push() and show the
 // new array in console.
