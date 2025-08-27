@@ -3,7 +3,7 @@
 // display 'Teenager'; otherwise display 'Adult'.
 let enterAge = prompt(`Enter Your Age`, `Weite Here`);
 const userAge = Number(enterAge);
-const message = userAge<13? `Child`: userAge >= 13 ||  userAge <= 19?`Teeneger`:`Adult`;
+const message = userAge<13? `Child`: userAge >= 13 &&  userAge <= 19?`Teeneger`:`Adult`;
 let result=alert(message); 
 
 // 2. Write a program that asks the user to enter a number. If the number is divisible by both 2 and 3,
