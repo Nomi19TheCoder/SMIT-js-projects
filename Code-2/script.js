@@ -78,10 +78,31 @@ console.log(entryArr);
 const average =(entryArr[0],enteryArr[1],enteryArr[2])=>{
  return (entryArr[0] + entryArr[1] + entryArr[2])/3
 }
-result=
+result=average;
 // 11. Write a program that asks the user for a month number (1–12). Use if…else if statements to
-// display the season ('Winter', 'Spring', 'Summer', 'Autumn').
+// display the season ('Winter', 'Spring', 'Summer', 'Autumn'). 
+const askMonth = prompt('Write the month Number you want to', 'Month Number')
+const monthNumber= Number(askMonth);
+switch (monthNumber){
+  case monthNumber>=1 && monthNumber<=3: 
+    alert(`It's Winter`);
+  case monthNumber>=4 && monthNumber<=6: 
+    alert(`It's Autusm`);
+  case monthNumber>=7 && monthNumber<=9: 
+    alert(`It's Summer`);
+  case monthNumber>=10 && monthNumber<=12: 
+    alert(`It's Spring`);
+};
 // 12. Create a loop that prints all even numbers from 2 to 20 in the console.
+const tableEven=()=>{
+  let evenArr=[]
+  for (i=0;i<11;i++){
+    const tableNumbers=i*2;
+    evenArr.push(tableNumbers);
+  }
+  return evenArr.join(',');
+} 
+console.log(tableEven())
 // 13. Use a for loop to display each element of the array ['Ali', 'Sara', 'Ahmed', 'Ayesha'].
 // 14. Write a program that asks the user to enter a number and then displays its multiplication table
 // using a loop (up to 10).
