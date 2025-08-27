@@ -62,6 +62,8 @@ console.log(cityArr);
 const numberArr = [10, 20, 30, 40, 50]:
 console.log(numberArr.splice(1,1));
 // 9. Make an array [100, 200, 300, 400, 500]. Use .slice(1, 4) and show the result in the console.
+const bignumberArr =[100, 200, 300, 400, 500];
+console.log(bignumberArr.slice(1,4));
 // 10. Ask the user to enter 3 subjects’ marks. Store them in an array. Calculate the total and average
 // using array values and display it.
 // 11. Write a program that asks the user for a month number (1–12). Use if…else if statements to
