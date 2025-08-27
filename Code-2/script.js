@@ -66,6 +66,19 @@ const bignumberArr =[100, 200, 300, 400, 500];
 console.log(bignumberArr.slice(1,4));
 // 10. Ask the user to enter 3 subjects’ marks. Store them in an array. Calculate the total and average
 // using array values and display it.
+const entries = Nummber(document.queryselector(`#entries`).value);
+const btn = document.queryselector(`button`);
+  let entryArr=[];
+  const displayArea = document.queryselector(`.display-area`)
+addeventlistner.btn(`click`,
+()=>{
+  entryArr.push(entries);
+})
+console.log(entryArr);
+const average =(entryArr[0],enteryArr[1],enteryArr[2])=>{
+ return (entryArr[0] + entryArr[1] + entryArr[2])/3
+}
+result=
 // 11. Write a program that asks the user for a month number (1–12). Use if…else if statements to
 // display the season ('Winter', 'Spring', 'Summer', 'Autumn').
 // 12. Create a loop that prints all even numbers from 2 to 20 in the console.
