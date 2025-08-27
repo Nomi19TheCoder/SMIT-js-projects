@@ -59,7 +59,8 @@ const removedCity=cityArr.shift();
 console.log(cityArr);
 // 8. Create an array of numbers [10, 20, 30, 40, 50]. Use .splice() to remove the middle number (30)
 // and display the array.
-const numberArr = 
+const numberArr = [10, 20, 30, 40, 50]:
+console.log(numberArr.splice(1,1));
 // 9. Make an array [100, 200, 300, 400, 500]. Use .slice(1, 4) and show the result in the console.
 // 10. Ask the user to enter 3 subjects’ marks. Store them in an array. Calculate the total and average
 // using array values and display it.
