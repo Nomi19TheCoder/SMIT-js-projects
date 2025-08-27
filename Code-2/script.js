@@ -3,7 +3,7 @@
 // display 'Teenager'; otherwise display 'Adult'.
 let enterAge = prompt(`Enter Your Age`, `Weite Here`);
 const userAge = Number(enterAge);
-const message = userAge<13? `Child`: userAge => 13 ||  userAge === 19?`Teeneger`:`Adult`;
+const message = userAge<13? `Child`: userAge >= 13 ||  userAge <= 19?`Teeneger`:`Adult`;
 let result=alert(message); 
 
 // 2. Write a program that asks the user to enter a number. If the number is divisible by both 2 and 3,
@@ -26,7 +26,7 @@ const firstEntered = Number(firstNumber);
 const secondEntered = Number(secondNumber);
 const messageFourth = Math.max(firstEntered,secondEntered);
  result=alert(`${messageFourth} is the larger number`); 
-// i read the question about using if else, but i found this method efficient way and i already use ternory method in the above question
+// i read the question about using if else, but i found this method efficient way and i already use ternary method in the above question
 
 // 5. Create an array of 5 colors. Display the first and last color from the array in an alert.
 const colorAdder=() => {
@@ -59,6 +59,7 @@ const removedCity=cityArr.shift();
 console.log(cityArr);
 // 8. Create an array of numbers [10, 20, 30, 40, 50]. Use .splice() to remove the middle number (30)
 // and display the array.
+const numberArr = 
 // 9. Make an array [100, 200, 300, 400, 500]. Use .slice(1, 4) and show the result in the console.
 // 10. Ask the user to enter 3 subjects’ marks. Store them in an array. Calculate the total and average
 // using array values and display it.
