@@ -135,9 +135,13 @@ const enteredName=enterName.tolowercase()
 const nameFunction=()=>{
   switch(enteredName){
     case: 'bob';
-    `Welcome`;
+    `Welcome!`;
     break;
-    case: 'alice'
+    case: 'alice';
+    `Welcome!`;
+    break;
+    default:
+    `You are not authorized.`
   }
 }
 // 17. Write a program that uses nested if statements to check if a number is positive and also even. If
