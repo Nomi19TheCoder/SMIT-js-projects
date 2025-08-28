@@ -123,8 +123,11 @@ alert(multiplicationArr);
 
 // using a loop (up to 10).
 // 15. Create an array [2, 4, 6, 8, 10]. Use a for loop to calculate the sum of all numbers and print it.
-let myArr= [2, 4, 6, 8, 10];
-
+const  myArr= [2, 4, 6, 8, 10];
+const addFunction=(primary,secondary)=>{
+  returm primary+secondary;
+}
+console.log(myArr.reduce())
 // 16. Ask the user to enter a name. If the name is 'Alice' or 'Bob', show 'Welcome!'. Otherwise, show
 // 'You are not authorized.'.
 // 17. Write a program that uses nested if statements to check if a number is positive and also even. If
