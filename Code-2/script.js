@@ -117,11 +117,14 @@ const  numberRrequir=prompt('Enter a Number for multiplication','0');
 const numberMultiple=Number(numberRrequir);
 const multiplicationArr=[];
 for (i=1;i=10;i++){
-  multiplicationArr.push(i);
+  multiplicationArr.push(i*2);
 };
-const multiplicationtableArr= foreach()
+alert(multiplicationArr);
+
 // using a loop (up to 10).
 // 15. Create an array [2, 4, 6, 8, 10]. Use a for loop to calculate the sum of all numbers and print it.
+let myArr= [2, 4, 6, 8, 10];
+
 // 16. Ask the user to enter a name. If the name is 'Alice' or 'Bob', show 'Welcome!'. Otherwise, show
 // 'You are not authorized.'.
 // 17. Write a program that uses nested if statements to check if a number is positive and also even. If
