@@ -129,7 +129,7 @@ const addFunction=(primary,secondary)=>{
 console.log(myArr.reduce(addFunction));
 // 16. Ask the user to enter a name. If the name is 'Alice' or 'Bob', show 'Welcome!'. Otherwise, show
 // 'You are not authorized.'
-const enterName=prompt('Ebter a Name','Name');
+const enterName=prompt('Enter a Name','Name');
 const enteredName=enterName.tolowercase()
 const nameFunction=()=>{
   switch(enteredName){
@@ -149,17 +149,15 @@ const nameFunction=()=>{
 const unknownName=prompt('Enter a number','number');
 const checkNumber=Number(unknownName);
 const nameFunction=()=>{
-  switch(checkNumber){
-    case:checkNumber%2==1&&checkNumber>=0 ;
-    alert(`Possitive Even`);
-    break;
-    case: checkNumber%2!=1&&checkNumber>=0;
-    alert(`Possitive Odd`);
-    break;
-    default:
-    alert(`Negative`)
+  if (checkNumber>=0){
+    
+    const myNumber= checkNumber%2=1?'Possitive Even':checkNumber%2!=1?'Possitive Odd';
+    alert(`Your Number is ${myNumber}`)
   }
-}
+  else{
+    alert('Your Number is Negative')
+  };
+    
 // 18. Create an array ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry']. Use .splice() to insert 'Mango' at
 // the 2nd index and show the new array.
 const nextArr= ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry'];
