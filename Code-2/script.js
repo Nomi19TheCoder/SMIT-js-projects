@@ -103,13 +103,13 @@ const tableEven=()=>{
 } 
 console.log(tableEven())
 // 13. Use a for loop to display each element of the array ['Ali', 'Sara', 'Ahmed', 'Ayesha'].
-displayFunction=()=>{const nameArr=[Ali', 'Sara', 'Ahmed', 'Ayesha'];
+displayFunction=()=>{const nameArr=['Ali', 'Sara', 'Ahmed', 'Ayesha'];
 const diplayName=()=>{
   for(i=0;i<nameArr.length;i++){
     console.log(nameArr[i]);
-  }
-}
-}
+  };
+};
+};
 console.log(displayFunction());
 // 14. Write a program that asks the user to enter a number and then displays its multiplication table
 const  numberRrequir=prompt('Enter a Number for multiplication','0');
