@@ -149,3 +149,6 @@ const nameFunction=()=>{
 // 'Negative number'.
 // 18. Create an array ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry']. Use .splice() to insert 'Mango' at
 // the 2nd index and show the new array.
+const nextArr= ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry'];
+nextArr.splice(1,'Mango');
+console.log(nextArr);
