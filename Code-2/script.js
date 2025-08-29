@@ -84,16 +84,14 @@ result=average;
 // display the season ('Winter', 'Spring', 'Summer', 'Autumn'). 
 const askMonth = prompt('Write the month Number you want to', 'Month Number')
 const monthNumber= Number(askMonth);
-switch (monthNumber){
-  case monthNumber>=1 && monthNumber<=3: 
-    alert(`It's Winter`);
-  case monthNumber>=4 && monthNumber<=6: 
-    alert(`It's Autusm`);
-  case monthNumber>=7 && monthNumber<=9: 
-    alert(`It's Summer`);
-  case monthNumber>=10 && monthNumber<=12: 
-    alert(`It's Spring`);
-};
+const validation = monthNumber>=1 && monthNumber<=12;
+  if(validation){
+    const season=monthNumber<=3?'Winter':monthNumber<=6?'Autumn':monthNumber<=9?'Summer':monthNumber<=12?'December';
+    alert(`It's ${season}`);
+  }
+  else{
+  alert(`Your month number is not valid`);
+  }
 // 12. Create a loop that prints all even numbers from 2 to 20 in the console.
 const tableEven=()=>{
   let evenArr=[]
