@@ -56,11 +56,12 @@ result=alert(fruitArr);
 // updated array.
 const cityArr=['Karachi','Lahore','Islamabad'];
 const removedCity=cityArr.shift();
-console.log(cityArr);
+console.log(removedCity);
 // 8. Create an array of numbers [10, 20, 30, 40, 50]. Use .splice() to remove the middle number (30)
 // and display the array.
-const numberArr = [10, 20, 30, 40, 50]:
-console.log(numberArr.splice(1,1));
+const numberArr = [10, 20, 30, 40, 50];
+numberArr.splice(2,1);
+console.log(numberArr)
 // 9. Make an array [100, 200, 300, 400, 500]. Use .slice(1, 4) and show the result in the console.
 const bignumberArr =[100, 200, 300, 400, 500];
 console.log(bignumberArr.slice(1,4));
