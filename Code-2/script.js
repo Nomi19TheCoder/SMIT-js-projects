@@ -67,13 +67,15 @@ const bignumberArr =[100, 200, 300, 400, 500];
 console.log(bignumberArr.slice(1,4));
 // 10. Ask the user to enter 3 subjects’ marks. Store them in an array. Calculate the total and average
 // using array values and display it.
-const entries = Nummber(document.queryselector(`#entries`).value);
+let entryValue =document.queryselector(`#entries`).value;
+const entries = Nummber(entryValue);
 const btn = document.querySelector(`button`);
   let entryArr=[];
   const displayArea = document.queryselector(`.display-area`)
 addeventlistner.btn(`click`,
 ()=>{
   entryArr.push(entries);
+  entry.value='';
 })
 console.log(entryArr);
 const average =(entryArr[0],enteryArr[1],enteryArr[2])=>{
