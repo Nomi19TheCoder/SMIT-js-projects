@@ -61,7 +61,7 @@ console.log(removedCity);
 // and display the array.
 const numberArr = [10, 20, 30, 40, 50];
 numberArr.splice(2,1);
-console.log(numberArr)
+console.log(numberArr);
 // 9. Make an array [100, 200, 300, 400, 500]. Use .slice(1, 4) and show the result in the console.
 const bignumberArr =[100, 200, 300, 400, 500];
 console.log(bignumberArr.slice(1,4));
