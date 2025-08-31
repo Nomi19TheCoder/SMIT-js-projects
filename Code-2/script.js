@@ -136,7 +136,7 @@ alert(multiplicationArr);
 // // 15. Create an array [2, 4, 6, 8, 10]. Use a for loop to calculate the sum of all numbers and print it.
 const  myArr= [2, 4, 6, 8, 10];
 const addFunction=(primary,secondary)=>{
-  returm primary+secondary;
+  return primary+secondary;
 }
 console.log(myArr.reduce((addFunction(primary,secondary)));
 // 16. Ask the user to enter a name. If the name is 'Alice' or 'Bob', show 'Welcome!'. Otherwise, show
