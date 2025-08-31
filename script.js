@@ -122,15 +122,15 @@ const displayFunction=()=>{
 };
 console.log(displayFunction());
 // 14. Write a program that asks the user to enter a number and then displays its multiplication table
-// const  numberRrequir=prompt('Enter a Number for multiplication','0');
-// const numberMultiple=Number(numberRrequir);
-// const multiplicationArr=[];
-// for (i=1;i=10;i++){
-//   multiplicationArr.push(i*2);
-// };
-// alert(multiplicationArr);
+const  numberRrequir=prompt('Enter a Number for multiplication','0');
+const numberMultiple=Number(numberRrequir);
+const multiplicationArr=[];
+for (i=1;i=10;i++){
+  multiplicationArr.push(i*2);
+};
+alert(multiplicationArr);
 
-// // using a loop (up to 10).
+// using a loop (up to 10).
 // // 15. Create an array [2, 4, 6, 8, 10]. Use a for loop to calculate the sum of all numbers and print it.
 // const  myArr= [2, 4, 6, 8, 10];
 // const addFunction=(primary,secondary)=>{
