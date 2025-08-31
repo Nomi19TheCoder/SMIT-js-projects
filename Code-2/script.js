@@ -157,20 +157,20 @@ const nameFunction=()=>{
   }
 }
 // 17. Write a program that uses nested if statements to check if a number is positive and also even. If
-// // both are true, display 'Positive Even'. If only positive, display 'Positive Odd'. Otherwise show
-// // 'Negative number'.
-// const unknownName=prompt('Enter a number','number');
-// const checkNumber=Number(unknownName);
-// const nameFunction=()=>{
-//   if (checkNumber>=0){
+// both are true, display 'Positive Even'. If only positive, display 'Positive Odd'. Otherwise show
+// 'Negative number'.
+const unknownName=prompt('Enter a number','number');
+const checkNumber=Number(unknownName);
+const nameFunction=()=>{
+  if (checkNumber>=0){
     
-//     const myNumber= checkNumber%2=1?'Possitive Even':checkNumber%2!=1?'Possitive Odd';
-//     alert(`Your Number is ${myNumber}`)
-//   }
-//   else{
-//     alert('Your Number is Negative')
-//   };
-// // 18. Create an array ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry']. Use .splice() to insert 'Mango' at
+    const myNumber= checkNumber%2=1?'Possitive Even':checkNumber%2!=1?'Possitive Odd';
+    alert(`Your Number is ${myNumber}`)
+  };
+  else{
+    alert('Your Number is Negative')
+  };
+// 18. Create an array ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry']. Use .splice() to insert 'Mango' at
 // // the 2nd index and show the new array.
 // let nextArr= ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry'];
 // nextArr.splice(1,1,'Mango');
