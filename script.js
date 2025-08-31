@@ -113,11 +113,11 @@ const tableEven=()=>{
 } 
 console.log(tableEven())
 // 13. Use a for loop to display each element of the array ['Ali', 'Sara', 'Ahmed', 'Ayesha'].
-displayFunction=()=>{const nameArr=['Ali', 'Sara', 'Ahmed', 'Ayesha'];
-const diplayName=()=>{
+let nameArr=['Ali', 'Sara', 'Ahmed', 'Ayesha'];
+const displayFunction=()=>{
   for(i=0;i<nameArr.length;i++){
-    console.log(nameArr[i]);
-  };
+    const name = nameArr[i]
+    console.log(name);
 };
 };
 console.log(displayFunction());
