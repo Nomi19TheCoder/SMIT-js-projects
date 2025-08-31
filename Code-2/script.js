@@ -138,7 +138,7 @@ const  myArr= [2, 4, 6, 8, 10];
 const addFunction=(primary,secondary)=>{
   returm primary+secondary;
 }
-console.log(myArr.reduce(addFunction));
+console.log(myArr.reduce((addFunction),0);
 // 16. Ask the user to enter a name. If the name is 'Alice' or 'Bob', show 'Welcome!'. Otherwise, show
 // // 'You are not authorized.'
 // const enterName=prompt('Enter a Name','Name');
