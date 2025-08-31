@@ -166,7 +166,7 @@ const nameFunction=()=>{
     
     const myNumber= checkNumber%2==1?'Possitive Even':checkNumber%2!=1?'Possitive Odd';
     alert(`Your Number is ${myNumber}`)
-  };
+  }
   else{
     alert('Your Number is Negative')
   };
