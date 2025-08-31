@@ -91,7 +91,7 @@ const average=()=>{
 evaluation();
 
 // // 11. Write a program that asks the user for a month number (1–12). Use if…else if statements to
-// // display the season ('Winter', 'Spring', 'Summer', 'Autumn'). 
+// display the season ('Winter', 'Spring', 'Summer', 'Autumn'). 
 const askMonth = prompt('Write the month Number you want to', 'Month Number')
 const monthNumber= Number(askMonth);
 const validation = monthNumber>=1 && monthNumber<=12;
@@ -103,34 +103,36 @@ const validation = monthNumber>=1 && monthNumber<=12;
   alert(`Your month number is not valid`);
   }
 // 12. Create a loop that prints all even numbers from 2 to 20 in the console.
-// const tableEven=()=>{
-//   let evenArr=[]
-//   for (i=0;i<11;i++){
-//     const tableNumbers=i*2;
-//     evenArr.push(tableNumbers);
-//   }
-//   return evenArr.join(',');
-// } 
-// console.log(tableEven())
-// // 13. Use a for loop to display each element of the array ['Ali', 'Sara', 'Ahmed', 'Ayesha'].
-// displayFunction=()=>{const nameArr=['Ali', 'Sara', 'Ahmed', 'Ayesha'];
-// const diplayName=()=>{
-//   for(i=0;i<nameArr.length;i++){
-//     console.log(nameArr[i]);
-//   };
-// };
-// };
-// console.log(displayFunction());
-// // 14. Write a program that asks the user to enter a number and then displays its multiplication table
-// const  numberRrequir=prompt('Enter a Number for multiplication','0');
-// const numberMultiple=Number(numberRrequir);
-// const multiplicationArr=[];
-// for (i=1;i=10;i++){
-//   multiplicationArr.push(i*2);
-// };
-// alert(multiplicationArr);
+const tableEven=()=>{
+  let evenArr=[]
+  for (i=1;i<11;i++){
+    const tableNumbers=i*2;
+    evenArr.push(tableNumbers);
+  }
+  return evenArr.join(',');
+} 
+console.log(tableEven())
+// 13. Use a for loop to display each element of the array ['Ali', 'Sara', 'Ahmed', 'Ayesha'].
+let nameArr=['Ali', 'Sara', 'Ahmed', 'Ayesha'];
+const displayFunction=()=>{
+  for(i=0;i<nameArr.length;i++){
+    const name = nameArr[i]
+    console.log(name);
+};
+};
+console.log(displayFunction());
+// 14. Write a program that asks the user to enter a number and then displays its multiplication table
+const  numberRrequir=prompt('Enter a Number for multiplication','0');
+const numberMultiple=Number(numberRrequir);
+const multiplicationArr=[];
+for (i=1;i<11;i++){
+  multiplicationArr.push([i*numberMultiple]);
+};
+alert(multiplicationArr);
 
-// // using a loop (up to 10).
+
+
+// using a loop (up to 10).
 // // 15. Create an array [2, 4, 6, 8, 10]. Use a for loop to calculate the sum of all numbers and print it.
 // const  myArr= [2, 4, 6, 8, 10];
 // const addFunction=(primary,secondary)=>{
