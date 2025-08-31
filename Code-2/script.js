@@ -92,17 +92,17 @@ evaluation();
 
 // // 11. Write a program that asks the user for a month number (1–12). Use if…else if statements to
 // // display the season ('Winter', 'Spring', 'Summer', 'Autumn'). 
-// const askMonth = prompt('Write the month Number you want to', 'Month Number')
-// const monthNumber= Number(askMonth);
-// const validation = monthNumber>=1 && monthNumber<=12;
-//   if(validation){
-//     const season=monthNumber<=3?'Winter':monthNumber<=6?'Autumn':monthNumber<=9?'Summer':monthNumber<=12?'December';
-//     alert(`It's ${season}`);
-//   }
-//   else{
-//   alert(`Your month number is not valid`);
-//   }
-// // 12. Create a loop that prints all even numbers from 2 to 20 in the console.
+const askMonth = prompt('Write the month Number you want to', 'Month Number')
+const monthNumber= Number(askMonth);
+const validation = monthNumber>=1 && monthNumber<=12;
+  if(validation){
+    const season=monthNumber<=3?'Winter':monthNumber<=6?'Autumn':monthNumber<=9?'Summer':monthNumber<=12?'December';
+    alert(`It's ${season}`);
+  }
+  else{
+  alert(`Your month number is not valid`);
+  }
+// 12. Create a loop that prints all even numbers from 2 to 20 in the console.
 // const tableEven=()=>{
 //   let evenArr=[]
 //   for (i=0;i<11;i++){
