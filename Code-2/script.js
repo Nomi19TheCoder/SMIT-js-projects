@@ -164,12 +164,13 @@ const checkNumber=Number(unknownName);
 const nameFunction=()=>{
   if (checkNumber>=0){
     
-    const myNumber= checkNumber%2=1?'Possitive Even':checkNumber%2!=1?'Possitive Odd';
+    const myNumber= checkNumber%2==1?'Possitive Even':checkNumber%2!=1?'Possitive Odd';
     alert(`Your Number is ${myNumber}`)
   };
   else{
     alert('Your Number is Negative')
   };
+};
 // 18. Create an array ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry']. Use .splice() to insert 'Mango' at
 // // the 2nd index and show the new array.
 // let nextArr= ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry'];
