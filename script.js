@@ -125,10 +125,12 @@ console.log(displayFunction());
 const  numberRrequir=prompt('Enter a Number for multiplication','0');
 const numberMultiple=Number(numberRrequir);
 const multiplicationArr=[];
-for (i=1;i=10;i++){
-  multiplicationArr.push(i*2);
+for (i=1;i<11;i++){
+  multiplicationArr.push([i*numberMultiple]);
 };
 alert(multiplicationArr);
+
+
 
 // using a loop (up to 10).
 // // 15. Create an array [2, 4, 6, 8, 10]. Use a for loop to calculate the sum of all numbers and print it.
