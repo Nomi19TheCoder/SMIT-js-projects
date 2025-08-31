@@ -159,8 +159,8 @@ const nameFunction=()=>{
 // 17. Write a program that uses nested if statements to check if a number is positive and also even. If
 // both are true, display 'Positive Even'. If only positive, display 'Positive Odd'. Otherwise show
 // 'Negative number'.
-const unknownName=prompt('Enter a number','number');
-const checkNumber=Number(unknownName);
+const unknownNum=prompt('Enter a number','number');
+const checkNumber=Number(unknownNum);
 const nameFunction=()=>{
   if (checkNumber>=0){
     
