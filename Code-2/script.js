@@ -169,8 +169,9 @@ const nameFunction=()=>{
   }
   else{
     alert('Your Number is Negative')
-  };
+  }
 };
+nameFunction()
 // 18. Create an array ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry']. Use .splice() to insert 'Mango' at
 // the 2nd index and show the new array.
 let nextArr= ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry'];
