@@ -164,7 +164,7 @@ const checkNumber=Number(unknownNum);
 const nameFunction=()=>{
   if (checkNumber>=0){
     
-    const myNumber= checkNumber%2==1?'Possitive Even':checkNumber%2!=1?'Possitive Odd';
+    const myNumber= checkNumber%2==0?'Possitive Even':'Possitive Odd';
     alert(`Your Number is ${myNumber}`)
   }
   else{
