@@ -141,22 +141,22 @@ const addFunction=(primary,secondary)=>{
 let addition = myArr.reduce((addFunction));
 console.log(addition);
 // 16. Ask the user to enter a name. If the name is 'Alice' or 'Bob', show 'Welcome!'. Otherwise, show
-// // 'You are not authorized.'
-// const enterName=prompt('Enter a Name','Name');
-// const enteredName=enterName.tolowercase()
-// const nameFunction=()=>{
-//   switch(enteredName){
-//     case: 'bob';
-//     alert(`Welcome!`);
-//     break;
-//     case: 'alice';
-//     alert(`Welcome!`);
-//     break;
-//     default:
-//     alert(`You are not authorized.`)
-//   }
-// }
-// // 17. Write a program that uses nested if statements to check if a number is positive and also even. If
+// 'You are not authorized.'
+const enterName=prompt('Enter a Name','Name');
+const enteredName=enterName.tolowercase()
+const nameFunction=()=>{
+  switch(enteredName){
+    case: 'bob';
+    alert(`Welcome!`);
+    break;
+    case: 'alice';
+    alert(`Welcome!`);
+    break;
+    default:
+    alert(`You are not authorized.`)
+  }
+}
+// 17. Write a program that uses nested if statements to check if a number is positive and also even. If
 // // both are true, display 'Positive Even'. If only positive, display 'Positive Odd'. Otherwise show
 // // 'Negative number'.
 // const unknownName=prompt('Enter a number','number');
